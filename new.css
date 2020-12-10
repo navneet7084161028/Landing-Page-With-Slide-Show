@@ -1,0 +1,149 @@
+	 .navbar{
+  		height: 90px;
+  	}
+
+    .navbar-brand{
+  		 padding: 0 15px;
+  		height: 80px;
+  		line-height: 80px;
+  		font-size: 35px;
+  		margin-left: 7%;
+  	}
+
+  	.navbar-toggle
+    {
+  		 margin-top: 23px;
+       padding: 9px 10px !important;
+  	}
+
+  	.bod1{
+  		background-color: #8be6f58f;
+      height: inherit;
+    }
+
+    .bimg{
+      background-image: url(f1.jpg);
+      background-repeat: no-repeat;
+      height: 600px;
+      width: auto;
+      background-size: cover;
+    }
+    .d{
+      margin-top: 150px;
+    }
+    .d1{
+      font-size: 37px;
+    }
+    .a1{
+      background-image: url(av.jpeg);
+      height: 270px;
+      width: 310px;
+      border-radius: 90px 200px 200px 90px;
+      top: 14%;
+      left: 5%;
+      position: relative;
+
+    }
+    .a2{
+      font-size: 39px;
+      color: #008B8B;
+    }
+    .a3{
+      font-size: 13px;
+      color: black;
+    }
+    .a4{
+      font-size: 13px;
+      color: black;
+    }
+    .a5{
+       font-size: 13px;
+       color: black;
+    }
+    .b1{
+      background-size: cover;
+      width: 350px;
+      height: 280px;
+      border-radius: 90px 220px 220px 90px;
+      position: relative;
+      margin-top: 8%;
+    }
+    .p1{
+      float: left;
+      color: white;
+      font-size: 25px;
+      top: 20%;
+    }
+ #slider {
+      width: 100%;
+      height: 500px;
+      position: relative;
+        }
+.slides-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+        }
+  .slide {
+       width: 100%;
+       height: 100%;
+       position: absolute;
+      left: 0;
+      top: 0;
+      display: none;
+        }
+  .slide .text {
+       width: 100%;
+      height: 100%;
+      background: #8fc6eb; 
+        }
+  .slide:first-child {
+      display: block;
+        }
+  img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+        }
+  #slider  {
+      font-size: 14px;
+      font-weight: 900;
+      color: #777;
+      text-align: center;
+        }
+  .arrows a {
+      position: absolute;
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.65);
+      top: 43%;
+      left: 5px;
+      font-weight: 400;
+      line-height: 1;
+      font-size: 22px;
+      border-radius: 30%
+        }
+  a:hover {
+      background-color: red;
+        }
+  a.next {
+      left: initial;
+      right: 5px;
+        }
+        .fas:hover{
+      transform: rotate(360deg);
+      transition: 1s ease;
+      color: white;
+        }
+  .dot {
+      cursor: pointer;
+      height: 20px;
+      width: 20px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+            }
+  .active, .dot:hover {
+      background-color: #717171;
+        }
