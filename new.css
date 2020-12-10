@@ -92,11 +92,6 @@
       top: 0;
       display: none;
         }
-  .slide .text {
-       width: 100%;
-      height: 100%;
-      background: #8fc6eb; 
-        }
   .slide:first-child {
       display: block;
         }
@@ -104,12 +99,6 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-        }
-  #slider  {
-      font-size: 14px;
-      font-weight: 900;
-      color: #777;
-      text-align: center;
         }
   .arrows a {
       position: absolute;
