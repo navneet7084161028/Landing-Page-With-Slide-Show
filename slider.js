@@ -13,29 +13,29 @@ function disp(element) {
         
      
         function fadeNext() {
-            current_slide.removeClass('active').fadeOut(500);
+            current_slide.removeClass('active').fadeOut(600);
 
             if(index == slidesCount) {
                 current_slide = a.first();
-                current_slide.delay(300).addClass('active').fadeIn(500);
+                current_slide.delay(500).addClass('active').fadeIn(600);
                 index = 1;
             } else {
                 index++;
                 current_slide = current_slide.next();
-                current_slide.delay(300).addClass('active').fadeIn(500);
+                current_slide.delay(500).addClass('active').fadeIn(600);
             }
         }
         function fadePrev() {
-            current_slide.removeClass('active').fadeOut(500);
+            current_slide.removeClass('active').fadeOut(600);
 
             if(index == 1) {
                 current_slide = a.last();
-                current_slide.delay(300).addClass('active').fadeIn();
+                current_slide.delay(500).addClass('active').fadeIn();
                 index = slidesCount;
             } else {
                 index--;
                 current_slide = current_slide.prev();
-                current_slide.delay(300).addClass('active').fadeIn(500);
+                current_slide.delay(500).addClass('active').fadeIn(600);
             }
 
         }
